@@ -1,0 +1,5 @@
+name = input()
+SalarioFixo = float(input())
+ValorVendas = float (input())
+Salario_com_bonus = SalarioFixo+(ValorVendas*0.15)
+print('TOTAL = R$ {:.2f}'.format(Salario_com_bonus))
